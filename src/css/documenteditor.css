@@ -1,0 +1,21 @@
+.documentEditor {
+    width: 100%;
+    height: auto;
+    overflow: auto;
+}
+.documentEditor .documentEditorContent {
+}
+.pageContextContainer{
+    height: 100%;
+    background-color: #ffffff;
+    margin: 20px auto 50px;
+    box-shadow: 0 0 5px 0 rgba(140, 140, 140, 0.88);
+    border: none #bbbbbb;
+    pointer-events: all;
+    max-width: calc(100% - 300px);;
+    min-width: 667px;
+    padding: 75px;
+}
+[contenteditable] {
+    outline: 1px solid transparent;
+}

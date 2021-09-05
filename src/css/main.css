@@ -1,0 +1,13 @@
+.docator{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.error {
+    background-color: #ff5252 !important;
+    border-color: #ff5252 !important;
+}
+.success--text {
+    color: #4caf50 !important;
+    caret-color: #4caf50 !important;
+}
